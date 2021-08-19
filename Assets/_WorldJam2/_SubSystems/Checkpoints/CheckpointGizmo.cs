@@ -16,7 +16,7 @@ namespace VRC.Examples.Obstacle
         private GUIStyle _sceneViewCheckpointLabelStyle;
         private Texture2D _sceneViewTooltipBg;
         
-        private void OnEnable()
+        private void Start()
         {
             if (_courseAsset == null)
             {
