@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af0a939a07f447c593fa3410d9f01fe9, type: 3}
+  m_Name: DemoCourse
+  m_EditorClassIdentifier: 
+  checkpointPrefabs:
+  - {fileID: 182609401964199456, guid: 10fcf15e6a0a9644b942298ae3dc5a34, type: 3}
+  - {fileID: 68348689565571104, guid: e20e6bddaecbdf64b91df011b1ae37ef, type: 3}
+  - {fileID: 68348689565571104, guid: 0e45a3355804c314a887fb6c8bcec2b4, type: 3}
+  powerUpPrefabs:
+  - {fileID: 8077719041186383215, guid: d9e910f04fc664f4abf7bdce5c3361e4, type: 3}
+  - {fileID: 8073496541441575311, guid: ad282bc34e01b044e8f21a4898edb984, type: 3}
+  playerObjectPrefab: {fileID: 5750676131551592831, guid: 17d41db2c6c346342a6a63ce545d9b7d,
+    type: 3}
+  playerCount: 8
+  scoreObjectPrefab: {fileID: 2097084573260832693, guid: 93d8783610e627240a764ada50143f21,
+    type: 3}
+  scoreFieldsCount: 5
+  moveSpeed: 6
+  jumpImpulse: 4
+  creationMask:
+    serializedVersion: 2
+    m_Bits: 1
+  showAdvanced: 0
+  recordPathYOffset: 0.5
+  autoUpdateCheckpoints: 1
+  showCheckpointLabels: 1
+  checkpointLabelOffset: 6.14
+  courseProgram: {fileID: 11400000, guid: 6870dba02a52fd64496e9632e25d7b5c, type: 2}
+  scoreManagerProgram: {fileID: 11400000, guid: 362d2993e7e16804db25a5825884317d,
+    type: 2}
+  playerModsManagerProgram: {fileID: 11400000, guid: e56e19d6e6dba9d4e8885b87bb8782d0,
+    type: 2}
+  playerDataManagerProgram: {fileID: 11400000, guid: d6ea24f1fbd1b574b9826c76eaab6d00,
+    type: 2}
+  checkpointProgram: {fileID: 11400000, guid: aada28643ebfd324885636b2e3f0eb15, type: 2}
+  powerUpProgram: {fileID: 11400000, guid: 672d65d1dcd313f479915c3f29eef1a0, type: 2}
+  variableToSceneObjectLookup:
+    m_keys:
+    - course
+    - hudTimeField
+    - followCam
+    - scoreManager
+    - scoreManagerObject
+    - playerModsManager
+    - playerDataManager
+    - playerDataManagerObject
+    - jumbotron
+    m_values:
+    - CourseManager
+    - HudTimeField
+    - VCam-Follow
+    - ScoreManager
+    - ScoreManager
+    - PlayerModsManager
+    - PlayerDataManager
+    - PlayerDataManager
+    - PlayerTimeDisplay

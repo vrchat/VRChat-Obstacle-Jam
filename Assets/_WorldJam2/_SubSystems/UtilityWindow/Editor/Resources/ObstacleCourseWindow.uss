@@ -1,0 +1,108 @@
+﻿#header-image {
+    background-color: #10002F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#main-scroll-view {
+    flex: 1;
+}
+
+#course-section {
+    margin-left:18px;
+}
+
+#course-section Label {
+    color: #6dc1ff;
+}
+
+.h1 {
+    padding-top: 20px;
+}
+
+Foldout.h1 > Toggle > VisualElement > Label {
+    font-size:20px;
+    margin-left:5px;
+    top:-5px;
+    -unity-font-style: bold;
+}
+
+Foldout.h1 > VisualElement {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+Label {
+    font-size:12px;
+}
+
+.h2 {
+    -unity-font-style: bold;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.prefab-picker{
+    flex:1;
+    flex-direction: row;
+}
+
+.prefab-picker Box {
+    padding-top:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+}
+
+.prefab-picker Box Image {
+    width:64px;
+    height:64px;
+}
+
+.flex-row {
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.flex-row ObjectField {
+    flex:2;
+    max-width: 256px;
+}
+
+Foldout.h1 ObjectField {
+    flex:2;
+    margin-bottom:10px;
+}
+
+.flex-row IntegerField {
+    flex:1;
+    max-width: 64px;
+    font-size: initial;
+}
+
+.class-scene-checkpoint-container {
+    flex-direction: row;
+}
+
+.class-scene-powerUp-container{
+    flex-direction: row;
+    -unity-text-align: middle-left;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.class-scene-powerUp-container FloatField {
+    margin-left:10px;
+    min-width: 100px;
+}
+
+VisualElement.class-scene-powerUp-container > ObjectField {
+    width:256px;
+    margin-bottom: 0;
+}
+
+.class-scene-powerUp-container Label {
+    min-width: 32px;
+    margin-right: 10px;
+}
