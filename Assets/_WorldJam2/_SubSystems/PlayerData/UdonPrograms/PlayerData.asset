@@ -15,21 +15,20 @@ MonoBehaviour:
   serializedUdonProgramAsset: {fileID: 11400000, guid: e196abc9ecbba2446bd081091c643274,
     type: 2}
   udonAssembly: ".data_start\r\n\r\n    .export timeElapsed\r\n    .export isRacing\r\n   
-    .export timeDisplay\r\n    .export scoreManager\r\n    .export scoreManagerObject\r\n   
-    .export followCam\r\n    .export playerId\r\n    .export playerDataManagerObject\r\n   
-    .export playerDataManager\r\n    .sync timeElapsed, none\r\n    .sync playerId,
-    none\r\n    \r\n    __object_0: %SystemObject, null\r\n    __Type_0: %SystemType,
-    null\r\n    __result_0: %SystemBoolean, null\r\n    __instance_0: %UnityEngineGameObject,
-    this\r\n    __type_0: %SystemType, null\r\n    __Type_1: %SystemType, null\r\n   
-    __object_1: %SystemObject, null\r\n    __result_1: %SystemBoolean, null\r\n   
-    __Boolean_0: %SystemBoolean, null\r\n    __obj_0: %UnityEngineGameObject, this\r\n   
-    __instance_1: %VRCUdonUdonBehaviour, this\r\n    __eventName_0: %SystemString,
-    null\r\n    __object_2: %SystemObject, null\r\n    __result_2: %SystemBoolean,
-    null\r\n    __Boolean_1: %SystemBoolean, null\r\n    __obj_1: %UnityEngineGameObject,
-    this\r\n    __instance_2: %UnityEngineRigidbody, null\r\n    __position_0: %UnityEngineVector3,
-    null\r\n    __instance_3: %VRCSDKBaseVRCPlayerApi, null\r\n    __instance_4:
-    %UnityEngineRigidbody, null\r\n    __rot_0: %UnityEngineQuaternion, null\r\n   
-    __instance_5: %VRCSDKBaseVRCPlayerApi, null\r\n    __Boolean_2: %SystemBoolean,
+    .export scoreManager\r\n    .export scoreManagerObject\r\n    .export followCam\r\n   
+    .export playerId\r\n    .export playerDataManagerObject\r\n    .export playerDataManager\r\n   
+    .sync timeElapsed, none\r\n    .sync playerId, none\r\n    \r\n    __object_0:
+    %SystemObject, null\r\n    __Type_0: %SystemType, null\r\n    __result_0: %SystemBoolean,
+    null\r\n    __instance_0: %UnityEngineGameObject, this\r\n    __type_0: %SystemType,
+    null\r\n    __Type_1: %SystemType, null\r\n    __object_1: %SystemObject, null\r\n   
+    __result_1: %SystemBoolean, null\r\n    __Boolean_0: %SystemBoolean, null\r\n   
+    __obj_0: %UnityEngineGameObject, this\r\n    __instance_1: %VRCUdonUdonBehaviour,
+    this\r\n    __eventName_0: %SystemString, null\r\n    __object_2: %SystemObject,
+    null\r\n    __result_2: %SystemBoolean, null\r\n    __Boolean_1: %SystemBoolean,
+    null\r\n    __obj_1: %UnityEngineGameObject, this\r\n    __instance_2: %UnityEngineRigidbody,
+    null\r\n    __position_0: %UnityEngineVector3, null\r\n    __instance_3: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __instance_4: %UnityEngineRigidbody, null\r\n    __rot_0: %UnityEngineQuaternion,
+    null\r\n    __instance_5: %VRCSDKBaseVRCPlayerApi, null\r\n    __Boolean_2: %SystemBoolean,
     null\r\n    __obj_2: %UnityEngineGameObject, this\r\n    __TimeSpan_0: %SystemTimeSpan,
     null\r\n    __instance_6: %SystemTimeSpan, null\r\n    __format_0: %SystemString,
     null\r\n    __formatProvider_0: %SystemIFormatProvider, null\r\n    __value_0:
@@ -63,11 +62,11 @@ MonoBehaviour:
     this\r\n    __instance_12: %VRCUdonUdonBehaviour, this\r\n    __symbolName_1:
     %SystemString, null\r\n    __String_1: %SystemString, null\r\n    __GameObject_0:
     %UnityEngineGameObject, this\r\n    timeElapsed: %SystemSingle, null\r\n    isRacing:
-    %SystemBoolean, null\r\n    rigidbody: %UnityEngineRigidbody, null\r\n    timeDisplay:
-    %VRCUdonUdonBehaviour, this\r\n    scoreManager: %VRCUdonUdonBehaviour, this\r\n   
-    scoreManagerObject: %UnityEngineGameObject, this\r\n    followCam: %CinemachineCinemachineVirtualCamera,
-    null\r\n    playerId: %SystemInt32, null\r\n    playerDataManagerObject: %UnityEngineGameObject,
-    this\r\n    playerDataManager: %VRCUdonUdonBehaviour, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
+    %SystemBoolean, null\r\n    rigidbody: %UnityEngineRigidbody, null\r\n    scoreManager:
+    %VRCUdonUdonBehaviour, this\r\n    scoreManagerObject: %UnityEngineGameObject,
+    this\r\n    followCam: %CinemachineCinemachineVirtualCamera, null\r\n    playerId:
+    %SystemInt32, null\r\n    playerDataManagerObject: %UnityEngineGameObject, this\r\n   
+    playerDataManager: %VRCUdonUdonBehaviour, this\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
     .export _start\r\n    \r\n    _start:\r\n    \r\n        PUSH, __Type_0\r\n       
     PUSH, __type_0\r\n        COPY\r\n        PUSH, __instance_0\r\n        PUSH,
     __type_0\r\n        PUSH, __object_0\r\n        EXTERN, \"UnityEngineGameObject.__GetComponent__SystemType__UnityEngineComponent\"\r\n       
@@ -445,29 +444,6 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|b3849134-732a-4869-8054-f6591bf5574d
       - unityObjectValue: {fileID: 0}
         stringValue: 
-    - fullName: Variable_VRCUdonCommonInterfacesIUdonEventReceiver
-      uid: 86044809-aa12-4d4a-947c-12043ea8630f
-      position: {x: 0, y: 0}
-      nodeUIDs:
-      - 
-      - 
-      - 
-      - 
-      - 
-      flowUIDs: []
-      nodeValues:
-      - unityObjectValue: {fileID: 0}
-        stringValue: 
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|timeDisplay
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|True
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089|False
-      - unityObjectValue: {fileID: 0}
-        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Block
       uid: c14fc88e-4a95-49ca-aceb-51eb1fcadc9c
       position: {x: 131.9925, y: 1420.7875}
@@ -1293,7 +1269,7 @@ MonoBehaviour:
     jsonData: '{"uid":"5fd11332-9a93-4f7b-a049-e939a113616a","layout":{"serializedVersion":"2","x":2656.0,"y":155.0,"width":188.0,"height":40.0},"title":"reset
       playerId","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: 795, y: 180}
-    scale: 0.65751624
+    position: {x: 853, y: -1245}
+    scale: 1
   version: 1.0.0
   showAssembly: 0

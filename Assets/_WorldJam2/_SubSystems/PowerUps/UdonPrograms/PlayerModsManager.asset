@@ -36,38 +36,39 @@ MonoBehaviour:
     null\r\n    __speed_2: %SystemSingle, null\r\n    __instance_8: %VRCSDKBaseVRCPlayerApi,
     null\r\n    __impulse_0: %SystemSingle, null\r\n    __Boolean_6: %SystemBoolean,
     null\r\n    __Vector2_0: %UnityEngineVector2, null\r\n    __Vector2_1: %UnityEngineVector2,
-    null\r\n    __name_0: %SystemString, null\r\n    __format_0: %SystemString, null\r\n   
-    __arg0_0: %SystemObject, null\r\n    __Vector2_2: %UnityEngineVector2, null\r\n   
-    __instance_9: %VRCUdonUdonBehaviour, this\r\n    _old_modMessage: %SystemString,
-    null\r\n    __instance_A: %VRCSDKBaseVRCPlayerApi, null\r\n    __speed_3: %SystemSingle,
-    null\r\n    __instance_B: %VRCSDKBaseVRCPlayerApi, null\r\n    __speed_4: %SystemSingle,
-    null\r\n    __instance_C: %VRCSDKBaseVRCPlayerApi, null\r\n    __speed_5: %SystemSingle,
-    null\r\n    __Single_9: %SystemSingle, null\r\n    __Single_A: %SystemSingle,
-    null\r\n    __Vector2_3: %UnityEngineVector2, null\r\n    __Vector2_4: %UnityEngineVector2,
-    null\r\n    __Boolean_7: %SystemBoolean, null\r\n    __Boolean_8: %SystemBoolean,
-    null\r\n    __Vector2_5: %UnityEngineVector2, null\r\n    __Vector2_6: %UnityEngineVector2,
-    null\r\n    __name_1: %SystemString, null\r\n    __instance_D: %VRCSDKBaseVRCPlayerApi,
-    null\r\n    __impulse_1: %SystemSingle, null\r\n    __Single_B: %SystemSingle,
-    null\r\n    __Single_C: %SystemSingle, null\r\n    __Vector2_7: %UnityEngineVector2,
+    null\r\n    __name_0: %SystemString, null\r\n    __instance_9: %VRCUdonUdonBehaviour,
+    this\r\n    __symbolName_0: %SystemString, null\r\n    __value_0: %SystemObject,
+    null\r\n    __format_0: %SystemString, null\r\n    __arg0_0: %SystemObject, null\r\n   
+    __Vector2_2: %UnityEngineVector2, null\r\n    __instance_A: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __speed_3: %SystemSingle, null\r\n    __instance_B: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __speed_4: %SystemSingle, null\r\n    __instance_C: %VRCSDKBaseVRCPlayerApi,
+    null\r\n    __speed_5: %SystemSingle, null\r\n    __Single_9: %SystemSingle,
+    null\r\n    __Single_A: %SystemSingle, null\r\n    __Vector2_3: %UnityEngineVector2,
+    null\r\n    __Vector2_4: %UnityEngineVector2, null\r\n    __Boolean_7: %SystemBoolean,
+    null\r\n    __Boolean_8: %SystemBoolean, null\r\n    __Vector2_5: %UnityEngineVector2,
+    null\r\n    __Vector2_6: %UnityEngineVector2, null\r\n    __name_1: %SystemString,
+    null\r\n    __instance_D: %VRCSDKBaseVRCPlayerApi, null\r\n    __impulse_1: %SystemSingle,
+    null\r\n    __Single_B: %SystemSingle, null\r\n    __Single_C: %SystemSingle,
+    null\r\n    __Vector2_7: %UnityEngineVector2, null\r\n    __instance_E: %VRCUdonUdonBehaviour,
+    this\r\n    __symbolName_1: %SystemString, null\r\n    __value_1: %SystemObject,
     null\r\n    __format_1: %SystemString, null\r\n    __arg0_1: %SystemObject, null\r\n   
-    __Vector2_8: %UnityEngineVector2, null\r\n    __instance_E: %VRCUdonUdonBehaviour,
-    this\r\n    __Vector2_9: %UnityEngineVector2, null\r\n    __Boolean_9: %SystemBoolean,
-    null\r\n    __instance_F: %UnityEngineUIText, null\r\n    __alpha_0: %SystemSingle,
-    null\r\n    __duration_0: %SystemSingle, null\r\n    __ignoreTimeScale_0: %SystemBoolean,
-    null\r\n    __instance_10: %UnityEngineUIText, null\r\n    __alpha_1: %SystemSingle,
-    null\r\n    __duration_1: %SystemSingle, null\r\n    __ignoreTimeScale_1: %SystemBoolean,
-    null\r\n    __Vector2_A: %UnityEngineVector2, null\r\n    __instance_11: %UnityEngineUIText,
-    null\r\n    __value_0: %SystemString, null\r\n    __name_2: %SystemString, null\r\n   
-    __Boolean_A: %SystemBoolean, null\r\n    __Single_D: %SystemSingle, null\r\n   
-    __Single_E: %SystemSingle, null\r\n    __Vector2_B: %UnityEngineVector2, null\r\n   
-    __instance_12: %UnityEngineUIText, null\r\n    __value_1: %UnityEngineColor,
-    null\r\n    __instance_13: %UnityEngineUIText, null\r\n    __value_2: %UnityEngineColor,
-    null\r\n    jumpImpulse: %SystemSingle, null\r\n    runSpeed: %SystemSingle,
-    null\r\n    speedUpRemaining: %SystemSingle, null\r\n    speedUpActive: %SystemBoolean,
-    null\r\n    jumpActive: %SystemBoolean, null\r\n    jumpModRemaining: %SystemSingle,
-    null\r\n    powerUps: %UnityEngineGameObjectArray, null\r\n    speedToProcess:
-    %UnityEngineVector2, null\r\n    jumpToProcess: %UnityEngineVector2, null\r\n   
-    playerModsField: %UnityEngineUIText, null\r\n    buffColor: %UnityEngineColor,
+    __Vector2_8: %UnityEngineVector2, null\r\n    __Vector2_9: %UnityEngineVector2,
+    null\r\n    __Boolean_9: %SystemBoolean, null\r\n    __instance_F: %UnityEngineUIText,
+    null\r\n    __alpha_0: %SystemSingle, null\r\n    __duration_0: %SystemSingle,
+    null\r\n    __ignoreTimeScale_0: %SystemBoolean, null\r\n    __instance_10: %UnityEngineUIText,
+    null\r\n    __alpha_1: %SystemSingle, null\r\n    __duration_1: %SystemSingle,
+    null\r\n    __ignoreTimeScale_1: %SystemBoolean, null\r\n    __Vector2_A: %UnityEngineVector2,
+    null\r\n    __instance_11: %UnityEngineUIText, null\r\n    __value_2: %SystemString,
+    null\r\n    __name_2: %SystemString, null\r\n    __Boolean_A: %SystemBoolean,
+    null\r\n    __Single_D: %SystemSingle, null\r\n    __Single_E: %SystemSingle,
+    null\r\n    __Vector2_B: %UnityEngineVector2, null\r\n    __instance_12: %UnityEngineUIText,
+    null\r\n    __value_3: %UnityEngineColor, null\r\n    __instance_13: %UnityEngineUIText,
+    null\r\n    __value_4: %UnityEngineColor, null\r\n    jumpImpulse: %SystemSingle,
+    null\r\n    runSpeed: %SystemSingle, null\r\n    speedUpRemaining: %SystemSingle,
+    null\r\n    speedUpActive: %SystemBoolean, null\r\n    jumpActive: %SystemBoolean,
+    null\r\n    jumpModRemaining: %SystemSingle, null\r\n    powerUps: %UnityEngineGameObjectArray,
+    null\r\n    speedToProcess: %UnityEngineVector2, null\r\n    jumpToProcess: %UnityEngineVector2,
+    null\r\n    playerModsField: %UnityEngineUIText, null\r\n    buffColor: %UnityEngineColor,
     null\r\n    debuffColor: %UnityEngineColor, null\r\n    modMessage: %SystemString,
     null\r\n    lastModValues: %UnityEngineVector2, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n   
     .export _start\r\n    \r\n    _start:\r\n    \r\n        PUSH, __object_0\r\n       
@@ -115,14 +116,13 @@ MonoBehaviour:
     EXTERN, \"UnityEngineVector2.__get_zero__UnityEngineVector2\"\r\n        PUSH,
     speedToProcess\r\n        PUSH, __Vector2_1\r\n        PUSH, __Boolean_6\r\n       
     EXTERN, \"UnityEngineVector2.__op_Inequality__UnityEngineVector2_UnityEngineVector2__SystemBoolean\"\r\n       
-    PUSH, __Boolean_6\r\n        JUMP_IF_FALSE, 0x000004A0\r\n        PUSH, speedToProcess\r\n       
+    PUSH, __Boolean_6\r\n        JUMP_IF_FALSE, 0x00000494\r\n        PUSH, speedToProcess\r\n       
     PUSH, lastModValues\r\n        COPY\r\n        PUSH, speedToProcess\r\n       
     PUSH, __arg0_0\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
-    PUSH, __format_0\r\n        PUSH, __arg0_0\r\n        PUSH, modMessage\r\n       
+    PUSH, __format_0\r\n        PUSH, __arg0_0\r\n        PUSH, __value_0\r\n       
     EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
-    PUSH, __instance_9\r\n        PUSH, \"_onVarChange_modMessage\"\r\n        EXTERN,
-    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    PUSH, modMessage\r\n        PUSH, _old_modMessage\r\n        COPY\r\n       
+    PUSH, __instance_9\r\n        PUSH, __symbolName_0\r\n        PUSH, __value_0\r\n       
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
     PUSH, __instance_A\r\n        EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, speedToProcess\r\n        PUSH, __Single_A\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
     PUSH, runSpeed\r\n        PUSH, __Single_A\r\n        PUSH, __speed_3\r\n       
@@ -137,12 +137,12 @@ MonoBehaviour:
     PUSH, speedToProcess\r\n        PUSH, speedUpRemaining\r\n        EXTERN, \"UnityEngineVector2.__get_y__SystemSingle\"\r\n       
     PUSH, __Boolean_7\r\n        PUSH, speedUpActive\r\n        COPY\r\n        PUSH,
     speedToProcess\r\n        EXTERN, \"UnityEngineVector2.__get_zero__UnityEngineVector2\"\r\n       
-    JUMP, 0x000004A0\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onVarChange_jumpToProcess\r\n   
+    JUMP, 0x00000494\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onVarChange_jumpToProcess\r\n   
     \r\n    _onVarChange_jumpToProcess:\r\n    \r\n        PUSH, __Vector2_6\r\n       
     EXTERN, \"UnityEngineVector2.__get_zero__UnityEngineVector2\"\r\n        PUSH,
     jumpToProcess\r\n        PUSH, __Vector2_6\r\n        PUSH, __Boolean_8\r\n       
     EXTERN, \"UnityEngineVector2.__op_Inequality__UnityEngineVector2_UnityEngineVector2__SystemBoolean\"\r\n       
-    PUSH, __Boolean_8\r\n        JUMP_IF_FALSE, 0x00000604\r\n        PUSH, __instance_D\r\n       
+    PUSH, __Boolean_8\r\n        JUMP_IF_FALSE, 0x000005EC\r\n        PUSH, __instance_D\r\n       
     EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, jumpToProcess\r\n        PUSH, __Single_C\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
     PUSH, jumpImpulse\r\n        PUSH, __Single_C\r\n        PUSH, __impulse_1\r\n       
@@ -150,15 +150,14 @@ MonoBehaviour:
     PUSH, __instance_D\r\n        PUSH, __impulse_1\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__SetJumpImpulse__SystemSingle__SystemVoid\"\r\n       
     PUSH, jumpToProcess\r\n        PUSH, lastModValues\r\n        COPY\r\n       
     PUSH, jumpToProcess\r\n        PUSH, __arg0_1\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
-    PUSH, __format_1\r\n        PUSH, __arg0_1\r\n        PUSH, modMessage\r\n       
+    PUSH, __format_1\r\n        PUSH, __arg0_1\r\n        PUSH, __value_1\r\n       
     EXTERN, \"SystemString.__Format__SystemString_SystemObject__SystemString\"\r\n       
-    PUSH, __instance_E\r\n        PUSH, \"_onVarChange_modMessage\"\r\n        EXTERN,
-    \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    PUSH, modMessage\r\n        PUSH, _old_modMessage\r\n        COPY\r\n       
+    PUSH, __instance_E\r\n        PUSH, __symbolName_1\r\n        PUSH, __value_1\r\n       
+    EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SetProgramVariable__SystemString_SystemObject__SystemVoid\"\r\n       
     PUSH, jumpToProcess\r\n        PUSH, jumpModRemaining\r\n        EXTERN, \"UnityEngineVector2.__get_y__SystemSingle\"\r\n       
     PUSH, __Boolean_9\r\n        PUSH, jumpActive\r\n        COPY\r\n        PUSH,
     jumpToProcess\r\n        EXTERN, \"UnityEngineVector2.__get_zero__UnityEngineVector2\"\r\n       
-    JUMP, 0x00000604\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onVarChange_modMessage\r\n   
+    JUMP, 0x000005EC\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onVarChange_modMessage\r\n   
     \r\n    _onVarChange_modMessage:\r\n    \r\n        PUSH, playerModsField\r\n       
     PUSH, __instance_F\r\n        COPY\r\n        PUSH, __instance_F\r\n        PUSH,
     __alpha_0\r\n        PUSH, __duration_0\r\n        PUSH, __ignoreTimeScale_0\r\n       
@@ -172,10 +171,10 @@ MonoBehaviour:
     PUSH, lastModValues\r\n        PUSH, __Single_D\r\n        EXTERN, \"UnityEngineVector2.__get_x__SystemSingle\"\r\n       
     PUSH, __Single_D\r\n        PUSH, __Single_E\r\n        PUSH, __Boolean_A\r\n       
     EXTERN, \"SystemSingle.__op_GreaterThan__SystemSingle_SystemSingle__SystemBoolean\"\r\n       
-    PUSH, __Boolean_A\r\n        JUMP_IF_FALSE, 0x00000744\r\n        PUSH, playerModsField\r\n       
+    PUSH, __Boolean_A\r\n        JUMP_IF_FALSE, 0x0000072C\r\n        PUSH, playerModsField\r\n       
     PUSH, __instance_12\r\n        COPY\r\n        PUSH, __instance_12\r\n       
     PUSH, buffColor\r\n        EXTERN, \"UnityEngineUIText.__set_color__UnityEngineColor__SystemVoid\"\r\n       
-    JUMP, 0x00000770\r\n        PUSH, playerModsField\r\n        PUSH, __instance_13\r\n       
+    JUMP, 0x00000758\r\n        PUSH, playerModsField\r\n        PUSH, __instance_13\r\n       
     COPY\r\n        PUSH, __instance_13\r\n        PUSH, debuffColor\r\n        EXTERN,
     \"UnityEngineUIText.__set_color__UnityEngineColor__SystemVoid\"\r\n        JUMP,
     0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"

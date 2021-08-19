@@ -202,7 +202,6 @@ namespace VRC.Examples.Obstacle
                 if (target == null)
                 {
                     Debug.LogWarning($"Could not find Scene Object called {sceneObjectName}");
-                    continue;
                 }
             }
             
@@ -225,6 +224,7 @@ namespace VRC.Examples.Obstacle
                         string sceneObjectName = variableToName.Value;
                         if (resolvedSceneObjects.TryGetValue(sceneObjectName, out GameObject targetGameObject))
                         {
+                            // if(doLog) Debug.Log($"{ub.name}: Found {targetGameObject.name} for {sceneObjectName}");
                             if (targetGameObject != null)
                             {
                                 if (ub.publicVariables.TryGetVariableType(variableName, out Type theType))
@@ -235,6 +235,10 @@ namespace VRC.Examples.Obstacle
                                         if (targetUB != null)
                                         {
                                             ub.publicVariables.TrySetVariableValue(variableName, targetUB);
+                                        }
+                                        else
+                                        {
+                                            Debug.LogWarning($"Trying to add UB for {variableName} but no UB found on {gameObject.name}");
                                         }
                                     }
                                     else if (theType == typeof(GameObject))
@@ -605,7 +609,7 @@ namespace VRC.Examples.Obstacle
             
                  // make list for new objects, to use for pool later
                  var newObjects = new List<GameObject>();
-            
+                 
                  // add new children to manager
                  for (var i = 0; i < value; i++)
                  {
@@ -623,6 +627,7 @@ namespace VRC.Examples.Obstacle
             
                  // add new children to pool
                  pool.Pool = newObjects.ToArray();
+                 Refresh();
              });
 
             // add to hierarchy
