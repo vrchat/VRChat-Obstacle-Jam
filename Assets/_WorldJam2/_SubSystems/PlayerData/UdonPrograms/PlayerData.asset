@@ -50,16 +50,17 @@ MonoBehaviour:
     null\r\n    __value_6: %SystemInt32, null\r\n    __Boolean_5: %SystemBoolean,
     null\r\n    __obj_5: %UnityEngineGameObject, this\r\n    __player_0: %VRCSDKBaseVRCPlayerApi,
     null\r\n    __instance_E: %VRCUdonUdonBehaviour, this\r\n    __instance_F: %VRCUdonUdonBehaviour,
-    this\r\n    __eventName_1: %SystemString, null\r\n    __Boolean_6: %SystemBoolean,
+    this\r\n    __eventName_1: %SystemString, null\r\n    __instance_10: %VRCUdonUdonBehaviour,
+    this\r\n    __eventName_2: %SystemString, null\r\n    __Boolean_6: %SystemBoolean,
     null\r\n    __VRCPlayerApi_1: %VRCSDKBaseVRCPlayerApi, null\r\n    onOwnershipTransferredPlayer:
     %VRCSDKBaseVRCPlayerApi, null\r\n    __Boolean_7: %SystemBoolean, null\r\n   
-    __Int32_0: %SystemInt32, null\r\n    __Int32_1: %SystemInt32, null\r\n    __instance_10:
-    %VRCUdonUdonBehaviour, this\r\n    __eventName_2: %SystemString, null\r\n   
+    __Int32_0: %SystemInt32, null\r\n    __Int32_1: %SystemInt32, null\r\n    __instance_11:
+    %VRCUdonUdonBehaviour, this\r\n    __eventName_3: %SystemString, null\r\n   
     __Boolean_8: %SystemBoolean, null\r\n    __obj_6: %UnityEngineGameObject, this\r\n   
-    __Int32_2: %SystemInt32, null\r\n    __instance_11: %VRCUdonUdonBehaviour, this\r\n   
+    __Int32_2: %SystemInt32, null\r\n    __instance_12: %VRCUdonUdonBehaviour, this\r\n   
     __object_5: %SystemObject, null\r\n    __result_5: %SystemBoolean, null\r\n   
-    __instance_13: %VRCSDK3ComponentsVRCObjectPool, null\r\n    __obj_7: %UnityEngineGameObject,
-    this\r\n    __instance_12: %VRCUdonUdonBehaviour, this\r\n    __symbolName_1:
+    __instance_14: %VRCSDK3ComponentsVRCObjectPool, null\r\n    __obj_7: %UnityEngineGameObject,
+    this\r\n    __instance_13: %VRCUdonUdonBehaviour, this\r\n    __symbolName_1:
     %SystemString, null\r\n    __String_1: %SystemString, null\r\n    __GameObject_0:
     %UnityEngineGameObject, this\r\n    timeElapsed: %SystemSingle, null\r\n    isRacing:
     %SystemBoolean, null\r\n    rigidbody: %UnityEngineRigidbody, null\r\n    scoreManager:
@@ -142,36 +143,38 @@ MonoBehaviour:
     JUMP, 0x00000574\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export Initialize\r\n   
     \r\n    Initialize:\r\n    \r\n        PUSH, __obj_5\r\n        PUSH, __Boolean_5\r\n       
     EXTERN, \"VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean\"\r\n       
-    PUSH, __Boolean_5\r\n        JUMP_IF_FALSE, 0x000005FC\r\n        PUSH, __player_0\r\n       
+    PUSH, __Boolean_5\r\n        JUMP_IF_FALSE, 0x00000628\r\n        PUSH, __player_0\r\n       
     EXTERN, \"VRCSDKBaseNetworking.__get_LocalPlayer__VRCSDKBaseVRCPlayerApi\"\r\n       
     PUSH, __player_0\r\n        PUSH, playerId\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__GetPlayerId__VRCSDKBaseVRCPlayerApi__SystemInt32\"\r\n       
     PUSH, __instance_E\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
     PUSH, __instance_F\r\n        PUSH, __eventName_1\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    JUMP, 0x000005FC\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onOwnershipTransferred\r\n   
+    PUSH, playerDataManager\r\n        PUSH, __instance_10\r\n        COPY\r\n       
+    PUSH, __instance_10\r\n        PUSH, __eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0x00000628\r\n        JUMP, 0xFFFFFFFC\r\n    \r\n    .export _onOwnershipTransferred\r\n   
     \r\n    _onOwnershipTransferred:\r\n    \r\n        PUSH, onOwnershipTransferredPlayer\r\n       
     PUSH, __VRCPlayerApi_1\r\n        COPY\r\n        PUSH, __VRCPlayerApi_1\r\n       
     PUSH, __Boolean_6\r\n        EXTERN, \"VRCSDKBaseVRCPlayerApi.__get_isLocal__SystemBoolean\"\r\n       
-    PUSH, __Boolean_6\r\n        JUMP_IF_FALSE, 0x000007E0\r\n        PUSH, playerId\r\n       
+    PUSH, __Boolean_6\r\n        JUMP_IF_FALSE, 0x0000080C\r\n        PUSH, playerId\r\n       
     PUSH, __Int32_1\r\n        PUSH, __Boolean_7\r\n        EXTERN, \"SystemInt32.__op_Equality__SystemInt32_SystemInt32__SystemBoolean\"\r\n       
-    PUSH, __Boolean_7\r\n        JUMP_IF_FALSE, 0x00000690\r\n        PUSH, __instance_10\r\n       
-    PUSH, __eventName_2\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
-    JUMP, 0x000007D8\r\n        PUSH, playerDataManagerObject\r\n        PUSH, __obj_6\r\n       
+    PUSH, __Boolean_7\r\n        JUMP_IF_FALSE, 0x000006BC\r\n        PUSH, __instance_11\r\n       
+    PUSH, __eventName_3\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid\"\r\n       
+    JUMP, 0x00000804\r\n        PUSH, playerDataManagerObject\r\n        PUSH, __obj_6\r\n       
     COPY\r\n        PUSH, __obj_6\r\n        PUSH, __Boolean_8\r\n        EXTERN,
     \"VRCSDKBaseNetworking.__IsOwner__UnityEngineGameObject__SystemBoolean\"\r\n       
-    PUSH, __Boolean_8\r\n        JUMP_IF_FALSE, 0x000007D8\r\n        PUSH, __Int32_2\r\n       
-    PUSH, playerId\r\n        COPY\r\n        PUSH, __instance_11\r\n        EXTERN,
+    PUSH, __Boolean_8\r\n        JUMP_IF_FALSE, 0x00000804\r\n        PUSH, __Int32_2\r\n       
+    PUSH, playerId\r\n        COPY\r\n        PUSH, __instance_12\r\n        EXTERN,
     \"VRCUdonCommonInterfacesIUdonEventReceiver.__RequestSerialization__SystemVoid\"\r\n       
-    PUSH, playerDataManager\r\n        PUSH, __instance_12\r\n        COPY\r\n       
+    PUSH, playerDataManager\r\n        PUSH, __instance_13\r\n        COPY\r\n       
     PUSH, __String_1\r\n        PUSH, __symbolName_1\r\n        COPY\r\n        PUSH,
-    __instance_12\r\n        PUSH, __symbolName_1\r\n        PUSH, __object_5\r\n       
+    __instance_13\r\n        PUSH, __symbolName_1\r\n        PUSH, __object_5\r\n       
     EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__GetProgramVariable__SystemString__SystemObject\"\r\n       
     PUSH, __object_5\r\n        PUSH, __result_5\r\n        EXTERN, \"VRCSDKBaseUtilities.__IsValid__SystemObject__SystemBoolean\"\r\n       
-    PUSH, __result_5\r\n        JUMP_IF_FALSE, 0x000007D0\r\n        PUSH, playerDataManager\r\n       
-    PUSH, __instance_12\r\n        COPY\r\n        PUSH, __String_1\r\n        PUSH,
-    __symbolName_1\r\n        COPY\r\n        PUSH, __object_5\r\n        PUSH, __instance_13\r\n       
+    PUSH, __result_5\r\n        JUMP_IF_FALSE, 0x000007FC\r\n        PUSH, playerDataManager\r\n       
+    PUSH, __instance_13\r\n        COPY\r\n        PUSH, __String_1\r\n        PUSH,
+    __symbolName_1\r\n        COPY\r\n        PUSH, __object_5\r\n        PUSH, __instance_14\r\n       
     COPY\r\n        PUSH, __GameObject_0\r\n        PUSH, __obj_7\r\n        COPY\r\n       
     PUSH, __object_5\r\n        PUSH, __obj_7\r\n        EXTERN, \"VRCSDK3ComponentsVRCObjectPool.__Return__UnityEngineGameObject__SystemVoid\"\r\n       
-    JUMP, 0x000007D0\r\n        JUMP, 0x000007D8\r\n        JUMP, 0x000007E0\r\n       
+    JUMP, 0x000007FC\r\n        JUMP, 0x00000804\r\n        JUMP, 0x0000080C\r\n       
     JUMP, 0xFFFFFFFC\r\n    \r\n\r\n.code_end\r\n"
   assemblyError: 
   graphData:
@@ -843,7 +846,7 @@ MonoBehaviour:
       - 
       - 
       flowUIDs:
-      - 
+      - 103598fc-b0f2-4c12-a10c-93bb3b86a768
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -883,7 +886,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|none
     - fullName: Event_Custom
       uid: a79fc90d-2fac-4f76-a5a8-fa34737d7686
-      position: {x: 667.43475, y: 457.69568}
+      position: {x: 708, y: 464}
       nodeUIDs:
       - 
       flowUIDs:
@@ -1204,11 +1207,35 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
+    - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomEvent__SystemString__SystemVoid
+      uid: 103598fc-b0f2-4c12-a10c-93bb3b86a768
+      position: {x: 1527, y: 630}
+      nodeUIDs:
+      - 7816ee1c-01f3-4a37-bef7-052dab6f2bb4|0
+      - 
+      flowUIDs:
+      - 
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|OnPlayerSynced
+    - fullName: Get_Variable
+      uid: 7816ee1c-01f3-4a37-bef7-052dab6f2bb4
+      position: {x: 1239, y: 654}
+      nodeUIDs:
+      - 
+      flowUIDs: []
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|05800c4f-5dbc-47b4-b680-274addce578f
+      - unityObjectValue: {fileID: 0}
+        stringValue: 
     updateOrder: 0
   graphElementData:
   - type: 5
-    uid: d16acfbe-f0f0-4345-a4d0-07abf0a8f504
-    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":130.0,"width":319.0,"height":354.0}}'
+    uid: 94c3fa17-a4ce-45ed-b601-c32dec7f1204
+    jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":13.0,"y":131.0,"width":277.0,"height":352.0}}'
   - type: 2
     uid: ecc26ba9-9388-40aa-9e23-1e400ad6b86c
     jsonData: '{"uid":"ecc26ba9-9388-40aa-9e23-1e400ad6b86c","layout":{"serializedVersion":"2","x":-171.0,"y":-31.999990463256837,"width":772.0,"height":304.0},"containedElements":["0243f20b-7f2d-444b-917e-3d79e9a0f1b9","988f9de7-3617-491b-b056-f0f26ea2e939","a9040f72-0d7e-4f43-b3ba-c03b9facb378","4aa5ff18-7fc0-4e50-95c1-70f23be3f651"],"title":"Cache
@@ -1219,7 +1246,7 @@ MonoBehaviour:
       Rigidbody to Player","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 2
     uid: 6103e148-9c05-4358-824f-dd6b5972f947
-    jsonData: '{"uid":"6103e148-9c05-4358-824f-dd6b5972f947","layout":{"serializedVersion":"2","x":642.0,"y":399.00006103515627,"width":1162.0,"height":386.0},"containedElements":["75575989-5759-40fc-a55b-c5684ae26c17","4ea58188-b869-42be-8476-1df86ed99d53","de817686-f17e-4a91-8a36-c2c3e1260fd7","1f75dafc-f633-4737-8505-98f0cd0a8a13","7fd4ef09-8cfe-450d-a371-b98d42047244","a79fc90d-2fac-4f76-a5a8-fa34737d7686","38c9379d-d83e-4179-9df2-ccac64782b16","24c18058-9938-4ead-a6ff-d6f508b1a205","e9fcb13a-0198-44eb-8153-c2e8b875c571","8d89403a-d9f1-45f2-a60e-41faa310f6a8","40842421-7d58-45da-928a-9d1c6b56a848","ed068ec5-a3ab-4474-84c6-da597b1d631a"],"title":"Initialize
+    jsonData: '{"uid":"6103e148-9c05-4358-824f-dd6b5972f947","layout":{"serializedVersion":"2","x":683.0,"y":407.0,"width":1143.0,"height":379.0},"containedElements":["75575989-5759-40fc-a55b-c5684ae26c17","4ea58188-b869-42be-8476-1df86ed99d53","de817686-f17e-4a91-8a36-c2c3e1260fd7","1f75dafc-f633-4737-8505-98f0cd0a8a13","7fd4ef09-8cfe-450d-a371-b98d42047244","a79fc90d-2fac-4f76-a5a8-fa34737d7686","38c9379d-d83e-4179-9df2-ccac64782b16","24c18058-9938-4ead-a6ff-d6f508b1a205","e9fcb13a-0198-44eb-8153-c2e8b875c571","8d89403a-d9f1-45f2-a60e-41faa310f6a8","40842421-7d58-45da-928a-9d1c6b56a848","ed068ec5-a3ab-4474-84c6-da597b1d631a","103598fc-b0f2-4c12-a10c-93bb3b86a768","7816ee1c-01f3-4a37-bef7-052dab6f2bb4"],"title":"Initialize
       - set playerId and SetupCamera","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   - type: 2
     uid: 277307c9-8da0-4501-9c93-5395673b3a9b
@@ -1269,7 +1296,7 @@ MonoBehaviour:
     jsonData: '{"uid":"5fd11332-9a93-4f7b-a049-e939a113616a","layout":{"serializedVersion":"2","x":2656.0,"y":155.0,"width":188.0,"height":40.0},"title":"reset
       playerId","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: 853, y: -1245}
+    position: {x: -99, y: -122}
     scale: 1
   version: 1.0.0
   showAssembly: 0

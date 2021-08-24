@@ -692,7 +692,7 @@ MonoBehaviour:
     jsonData: '{"uid":"38310b44-fe13-49db-82ab-965af88906e0","layout":{"serializedVersion":"2","x":1127.000244140625,"y":979.0,"width":489.0,"height":247.0},"containedElements":["cd767c98-080d-4f64-a958-51c14e004dc5","b2283cfb-3642-448e-8872-534eddd56a1b","c4052352-5522-4846-97d0-377bd5121992"],"title":"send
       Trigger to Target","layer":0,"elementTypeColor":{"r":0.0,"g":0.0,"b":0.0,"a":0.0}}'
   viewTransform:
-    position: {x: 790, y: 483}
-    scale: 0.7561437
+    position: {x: 1059, y: 228}
+    scale: 0.49717674
   version: 1.0.0
   showAssembly: 0
